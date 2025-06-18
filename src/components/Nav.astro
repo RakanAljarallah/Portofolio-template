@@ -27,13 +27,15 @@ const isCurrentPage = (href: string) => {
 	if (pathname.at(-1) !== '/') pathname += '/';
 	return pathname === href || (href !== '/' && pathname.startsWith(href));
 };
+
+const { title = "your name", description = "your description" } = Astro.props;
 ---
 
 <nav>
 	<div class="menu-header">
 		<a href="/" class="site-title">
 			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
-			Jeanine White
+			{title}
 		</a>
 		<menu-button>
 			<template>

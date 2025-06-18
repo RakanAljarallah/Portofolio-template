@@ -25,7 +25,7 @@ const projects = (await getCollection('work'))
 // https://docs.astro.build/basics/astro-components/
 ---
 
-<BaseLayout>
+<BaseLayout title="your name" description="your descripion.">
 	<div class="stack gap-20 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
@@ -41,6 +41,7 @@ const projects = (await getCollection('work'))
 					</div>
 				</Hero>
 
+				{/* TODO: add your own portrait */}
 				<img
 					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
 					width="480"
