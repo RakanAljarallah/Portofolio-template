@@ -1,29 +1,55 @@
-# Astro Starter Kit: Portfolio
+# Rakan Aljarallah - Portfolio
 
-Step 1: Prepare Your Computer
-Before you start, make sure you have these installed:
+Welcome to my personal portfolio website showcasing my work as a Software Engineer specializing in Back-End Technology, Game Development with Unity, 3D Modeling & Metaverse Integration.
 
-Node.js (LTS version): This is essential for running Astro.
-Download from: nodejs.org
-To check if installed, open your terminal/command prompt and type: node -v and npm -v (you should see version numbers).
-Git: For managing your code and connecting to GitHub.
-Download from: git-scm.com/downloads
-To check if installed: git --version
+## About Me
 
+I am Rakan Aljarallah, a passionate Software Engineer with expertise in:
+- **Back-End Development**: Server-side programming, database design, and API development
+- **Game Development**: Unity game engine development and interactive experiences
+- **3D Modeling & Metaverse**: 3D modeling techniques and metaverse integration
+- **Problem Solving**: Strong analytical and problem-solving skills
 
-```sh
-npm create astro@latest -- --template portfolio
-```
+## Portfolio Features
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/portfolio/devcontainer.json)
+This portfolio showcases:
+- Selected work projects demonstrating my technical skills
+- Detailed case studies of game development, backend systems, and metaverse projects
+- Information about my background and approach to software development
+- Contact information for collaboration opportunities
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Technology Stack
 
-## 🧞 Commands
+This portfolio is built with:
+- **Astro**: Modern static site generator for fast, optimized websites
+- **TypeScript**: For type-safe development
+- **CSS**: Custom styling with modern design principles
+- **Responsive Design**: Optimized for all devices and screen sizes
 
-All commands are run from the root of the project, from a terminal:
+## Getting Started
+
+To run this portfolio locally:
+
+1. **Prerequisites**: Make sure you have Node.js (LTS version) installed
+   - Download from: nodejs.org
+   - Check installation: `node -v` and `npm -v`
+
+2. **Install dependencies**:
+   ```sh
+   npm install
+   ```
+
+3. **Start development server**:
+   ```sh
+   npm run dev
+   ```
+
+4. **Build for production**:
+   ```sh
+   npm run build
+   ```
+
+## Available Commands
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
@@ -34,6 +60,10 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## Contact
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Interested in working together? Feel free to reach out through the contact information provided on the website.
+
+---
+
+Built with [Astro](https://astro.build) - A modern static site generator for fast, optimized websites.

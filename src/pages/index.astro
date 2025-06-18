@@ -25,25 +25,25 @@ const projects = (await getCollection('work'))
 // https://docs.astro.build/basics/astro-components/
 ---
 
-<BaseLayout title="your name" description="your descripion.">
+<BaseLayout title="Rakan Aljarallah" description="Software Engineer specializing in Back-End Technology, Game Development with Unity, 3D Modeling & Metaverse Integration.">
 	<div class="stack gap-20 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hello, my name is Rakan Aljarallah"
+					tagline="I am a Software Engineer with expertise in Problem Solving, Back-End Technology, Game Development with Unity, 3D Modeling & Metaverse Integration."
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Software Engineer</Pill>
+						<Pill><Icon icon="rocket-launch" size="1.33em" /> Game Developer</Pill>
+						<Pill><Icon icon="strategy" size="1.33em" /> 3D Modeler</Pill>
 					</div>
 				</Hero>
 
 				{/* TODO: add your own portrait */}
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Rakan Aljarallah - Software Engineer and Game Developer"
 					width="480"
 					height="620"
 					src="/assets/empty.png"
@@ -57,7 +57,7 @@ const projects = (await getCollection('work'))
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<p>Take a look below at some of my featured projects showcasing my skills in software development, game development, and 3D modeling.</p>
 				</header>
 
 				<div class="gallery">
@@ -82,19 +82,18 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Technologies & Platforms</h3>
 					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
+						I work with a variety of technologies and platforms to bring creative ideas to life.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							['Unity', 'Back-End Development', '3D Modeling', 'Metaverse', 'Problem Solving'].map((tech) => (
 								<li class="mention-card">
-									<p>{brand}</p>
+									<p>{tech}</p>
 								</li>
 							))
 						}
