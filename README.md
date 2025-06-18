@@ -1,5 +1,16 @@
 # Astro Starter Kit: Portfolio
 
+Step 1: Prepare Your Computer
+Before you start, make sure you have these installed:
+
+Node.js (LTS version): This is essential for running Astro.
+Download from: nodejs.org
+To check if installed, open your terminal/command prompt and type: node -v and npm -v (you should see version numbers).
+Git: For managing your code and connecting to GitHub.
+Download from: git-scm.com/downloads
+To check if installed: git --version
+
+
 ```sh
 npm create astro@latest -- --template portfolio
 ```
@@ -9,8 +20,6 @@ npm create astro@latest -- --template portfolio
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/portfolio/devcontainer.json)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![portfolio](https://user-images.githubusercontent.com/357379/210779178-a98f0fb7-6b1a-4068-894c-8e1403e26654.jpg)
 
 ## 🧞 Commands
 
